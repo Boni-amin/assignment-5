@@ -30,10 +30,8 @@ const server = http.createServer((req, res) => {
         res.writeHead(404, { 'Content-Type': 'text/html' });
         res.end('Page Not Found');
     }
-
     //⭐☞ end the server response
     res.end();
-
 });
 
 //⭐☞ Server listen on port
